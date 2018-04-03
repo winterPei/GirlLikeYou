@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tool="http://schemas.android.com/tools"
+             android:layout_width="100dp"
+             android:layout_height="135dp"
+             >
+
+    <ImageView
+        android:id="@+id/item_girls_iv"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/item_girls_who_tv"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        tool:text="ShellPark"/>
+</RelativeLayout>
